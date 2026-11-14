@@ -6,31 +6,13 @@ An open-source prompt-based framework under the **MIT** License that allows AI a
 
 ## 🚀 Quick Start Guide
 
-Copy and paste the activation prompt into your favorite AI along with your video link or media file:
+Copy and paste the activation prompt corresponding to the video length into your favorite AI along with your video link or media file:
 
 ### 1️⃣ For short videos (< 30 minutes, tutorials, single episodes):
-> *"Read and follow these instructions to analyze the video below:*
-> 
-> *# Role & Objective*
-> *You are an expert multimedia analyst and summarization assistant. Your task is to watch the provided video and produce a structured, highly scannable, and comprehensive summary including:*
-> *- Executive Summary (Title, Context, Core Takeaway)*
-> *- Timeline & Key Chapters with timestamps format [HH:MM:SS]*
-> *- Deep-Dive Breakdown*
-> *- Actionable Takeaways*
-> 
-> *Analyze this video: [INSERT_VIDEO_LINK_OR_FILE]*"
+> "Read and follow the instructions in this prompt: `https://raw.githubusercontent.com/maujo227/video-ai-summarizer/main/prompts/summarize_video.md` to analyze this video: [INSERT_VIDEO_LINK_OR_FILE]"
 
 ### 2️⃣ For long videos (> 30 minutes, full-length movies, university lectures):
-> *"Read and follow these instructions to analyze the long-form video below using a hierarchical breakdown:*
-> 
-> *# Role & Objective*
-> *You are an expert master archivist and film/lecture analyst. For this extended content, provide:*
-> *- Master Overview & Context*
-> *- Comprehensive Timeline (broken down by acts, chapters, or major topic shifts with timestamps format [HH:MM:SS])*
-> *- In-Depth Thematic Analysis*
-> *- Key Takeaways & Conclusions*
-> 
-> *Analyze this video: [INSERT_VIDEO_LINK_OR_FILE]*"
+> "Read and follow the instructions in this prompt: `https://raw.githubusercontent.com/maujo227/video-ai-summarizer/main/prompts/summarize_long_video.md` to analyze this video: [INSERT_VIDEO_LINK_OR_FILE]"
 
 ---
 
